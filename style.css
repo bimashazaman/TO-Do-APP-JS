@@ -78,3 +78,28 @@ form button:hover {
   justify-content: space-between;
   align-items: center;
 }
+
+.todos li:last-child {
+  border: none;
+}
+
+.todos li input {
+  margin-right: 10px;
+}
+
+.todos li button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.todos li.completed {
+  color: #b6b6b6;
+  text-decoration: line-through;
+}
+
+small {
+  color: #b5b5b5;
+  margin-top: 3rem;
+  text-align: center;
+}
